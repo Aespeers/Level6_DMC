@@ -1,0 +1,21 @@
+insert into temp new week
+select * from rota
+where date between from date and to date
+and shift type <> holiday
+
+Update temp new week
+set from date = from date + 7
+set to date = to date + 7
+
+insert into future holiday
+select * from rota
+where date between from date +7 and to date +7
+and shiftname = holiday
+
+Update temp new week as temp, future as future
+delete *
+where temp.date = future.date
+and temp.user = future.user
+
+Insert into rota
+select * from temp
