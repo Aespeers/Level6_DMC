@@ -1,4 +1,0 @@
-trello board
-finish mock ups
-upload minutes
-start development
