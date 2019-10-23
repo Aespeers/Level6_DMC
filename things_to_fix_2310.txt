@@ -1,0 +1,12 @@
+MANAGER
+manage staff - cannot edit employee info
+send alert - once text is clicked, icon can no longer be clicked to select
+           - select specific staff does nothing
+
+
+EMPLOYEE
+rota view - can't view a specific day
+request holiday - calender is manager's view
+                - no functionality in place to select holiday
+               
+           
