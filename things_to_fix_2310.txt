@@ -1,12 +1,15 @@
 MANAGER
-manage staff - cannot edit employee info
-send alert - once text is clicked, icon can no longer be clicked to select
-           - select specific staff does nothing
+send alert - select specific staff does nothing
 
 
 EMPLOYEE
-rota view - can't view a specific day
 request holiday - calender is manager's view
                 - no functionality in place to select holiday
-               
-           
+ - BACK BUTTONS               
+ - no way of going back to the login page after going to password reset link
+ - change calendar to start monday
+ - confirming the addition of a member of staff to a shift doesn't allow returning to the rota
+ - adding a member of staff to a shift doesn't work
+ - staff availabitily in staff creation doesn't work
+ - can't select staff to remove them
+ - pop-ups
