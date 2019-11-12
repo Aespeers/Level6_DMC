@@ -1,0 +1,5 @@
+ - confirming the addition of a member of staff to a shift doesn't allow returning to the rota
+ - adding a member of staff to a shift doesn't work
+ - staff availabitily in staff creation doesn't work
+ - employees cannot see their shifts on the day view
+
